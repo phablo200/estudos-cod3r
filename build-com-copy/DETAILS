@@ -1,0 +1,6 @@
+
+#EXEMPLO 3 na base de conhecimento em Docker Image
+#Exportando porta 80 do container para a 9001 do meu host
+
+sudo docker container run --name build-com-copy -p 9001:80 ex-build-copy
+
